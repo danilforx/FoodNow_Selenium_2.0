@@ -1,0 +1,14 @@
+18:48:31.475 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+18:48:31.788 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+18:48:31.809 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+18:48:34.257 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+18:48:34.467 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (2c3bb3345a3e40694911a5202925903a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:48:39.624 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+18:48:39.698 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (2c3bb3345a3e40694911a5202925903a)] -> xpath: //input[@id='firstName-id']]] is pressed
+18:48:39.843 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (2c3bb3345a3e40694911a5202925903a)] -> xpath: //input[@id='lastName-id']]] is pressed
+18:48:39.981 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (2c3bb3345a3e40694911a5202925903a)] -> xpath: //input[@id='email-id']]] is pressed
+18:48:40.111 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (2c3bb3345a3e40694911a5202925903a)] -> xpath: //input[@id='password-id']]] is pressed
+18:48:40.230 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (2c3bb3345a3e40694911a5202925903a)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+18:48:40.368 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (2c3bb3345a3e40694911a5202925903a)] -> xpath: //button[text()='Registration']]] is pressed
+18:48:50.627 [main] INFO  foodnow.core.TestBase -- Test is FAILED: [registerNegativeTest], Screenscot: [C:\QA_Project\FoodNow_Selenium_2.0\src\test_screenshots\screen-1732643330489.png]
+18:48:50.631 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

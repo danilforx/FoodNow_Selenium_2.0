@@ -1,0 +1,11 @@
+13:39:56.175 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+13:39:56.412 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+13:39:56.428 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.85/chromedriver
+13:39:58.443 [main] INFO  foodnow.core.TestBase -- test loginNegativeTestWithAssert started
+13:39:58.443 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+13:40:00.545 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (2d565f34a33e75b17c1a169af5995f3a)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:40:12.633 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+13:40:12.711 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (2d565f34a33e75b17c1a169af5995f3a)] -> xpath: //input[@id='email-id']]] is pressed
+13:40:12.889 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (2d565f34a33e75b17c1a169af5995f3a)] -> xpath: //input[@id='password-id']]] is pressed
+13:40:15.015 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (2d565f34a33e75b17c1a169af5995f3a)] -> xpath: //button[text()='Login']]] is pressed
+13:40:17.755 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (2d565f34a33e75b17c1a169af5995f3a)] -> xpath: //a[@href='#/user-profile']]] is pressed

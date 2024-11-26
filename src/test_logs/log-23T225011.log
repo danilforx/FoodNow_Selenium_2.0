@@ -1,0 +1,7 @@
+22:50:12.703 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+22:50:12.717 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.85/chromedriver
+22:50:16.673 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (29f182de7f71604742ac94e9e1da9d01)] -> xpath: //a[@href='#/user-profile']]] is pressed
+22:50:28.728 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+22:50:28.787 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (29f182de7f71604742ac94e9e1da9d01)] -> xpath: //input[@id='email-id']]] is pressed
+22:50:28.955 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (29f182de7f71604742ac94e9e1da9d01)] -> xpath: //input[@id='password-id']]] is pressed
+22:50:31.082 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (29f182de7f71604742ac94e9e1da9d01)] -> xpath: //button[text()='Login']]] is pressed

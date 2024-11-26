@@ -1,0 +1,14 @@
+18:58:35.866 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+18:58:36.091 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+18:58:36.105 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/a1234/.cache/selenium/chromedriver/mac-arm64/131.0.6778.85/chromedriver
+18:58:38.072 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+18:58:38.298 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (066a9be35a4f189e0d9184e30ff77cb5)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:58:43.356 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+18:58:43.450 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (066a9be35a4f189e0d9184e30ff77cb5)] -> xpath: //input[@id='firstName-id']]] is pressed
+18:58:43.586 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (066a9be35a4f189e0d9184e30ff77cb5)] -> xpath: //input[@id='lastName-id']]] is pressed
+18:58:43.653 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (066a9be35a4f189e0d9184e30ff77cb5)] -> xpath: //input[@id='email-id']]] is pressed
+18:58:43.730 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (066a9be35a4f189e0d9184e30ff77cb5)] -> xpath: //input[@id='password-id']]] is pressed
+18:58:43.802 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (066a9be35a4f189e0d9184e30ff77cb5)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+18:58:43.894 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on mac (066a9be35a4f189e0d9184e30ff77cb5)] -> xpath: //button[text()='Registration']]] is pressed
+18:58:43.956 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+18:58:43.958 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

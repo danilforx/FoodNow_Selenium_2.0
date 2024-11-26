@@ -1,0 +1,15 @@
+18:42:36.366 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+18:42:36.672 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+18:42:36.695 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+18:42:39.004 [main] INFO  foodnow.core.TestBase -- test loginPositiveTest started
+18:42:39.005 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+18:42:39.006 [main] INFO  foodnow.core.TestBase -- *** LOGIN POSITIVE TESTING IN PROGRESS ***
+18:42:41.114 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (f03c432f25a3eb7581ea37ccfb952c41)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:42:48.216 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:42:48.288 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (f03c432f25a3eb7581ea37ccfb952c41)] -> xpath: //input[@id='email-id']]] is pressed
+18:42:48.456 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (f03c432f25a3eb7581ea37ccfb952c41)] -> xpath: //input[@id='password-id']]] is pressed
+18:42:50.628 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (f03c432f25a3eb7581ea37ccfb952c41)] -> xpath: //button[text()='Login']]] is pressed
+18:42:57.717 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (f03c432f25a3eb7581ea37ccfb952c41)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:43:04.827 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space(text())='Log out']'] is pressed
+18:43:04.953 [main] INFO  foodnow.core.TestBase -- Test is FAILED: [loginPositiveTest], Screenscot: [C:\QA_Project\FoodNow_Selenium_2.0\src\test_screenshots\screen-1732642984827.png]
+18:43:04.957 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

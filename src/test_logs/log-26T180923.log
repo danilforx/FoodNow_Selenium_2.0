@@ -1,0 +1,18 @@
+18:09:24.080 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+18:09:24.390 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.85 (resolved driver for Chrome 131)
+18:09:24.413 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe
+18:09:26.544 [main] INFO  foodnow.core.TestBase -- test formPayment started
+18:09:28.667 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:09:35.816 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:09:35.887 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: //input[@id='email-id']]] is pressed
+18:09:36.065 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: //input[@id='password-id']]] is pressed
+18:09:38.229 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: //button[text()='Login']]] is pressed
+18:09:40.344 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: (//img[@class='css-rbpvgo'])[1]]] is pressed
+18:09:42.422 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: //button[contains(@class, 'MuiButtonBase-root') and text()='Meat']]] is pressed
+18:09:44.499 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: (//div[@class='MuiStack-root css-jj2ztu'])[2]]] is pressed
+18:09:47.289 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: (//img[@class='css-13s0wde'])[2]]] is pressed
+18:09:49.550 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: (//button[contains(@class,'MuiButton-root')])[2]]] is pressed
+18:09:51.617 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: (//div[@class='css-1361dhl']//div)[2]]] is pressed
+18:09:51.805 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (9a0d347f9c1fede2934024f44e326095)] -> xpath: (//input[@class='css-1l4kvas'])[1]]] is pressed
+18:09:59.052 [main] INFO  foodnow.core.TestBase -- Test is FAILED: [formPayment], Screenscot: [C:\QA_Project\FoodNow_Selenium_2.0\src\test_screenshots\screen-1732640998960.png]
+18:09:59.057 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***
