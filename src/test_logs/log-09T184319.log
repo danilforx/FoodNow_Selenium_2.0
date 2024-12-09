@@ -1,0 +1,13 @@
+18:43:19.512 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESs ***
+18:43:19.829 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+18:43:19.857 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+18:43:22.152 [main] INFO  foodnow.core.TestBase -- test addProductPositiveTest started
+18:43:24.284 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (455c7acdb8c5890a379b5c70b1d8283b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+18:43:27.408 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+18:43:27.480 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (455c7acdb8c5890a379b5c70b1d8283b)] -> xpath: //input[@id='email-id']]] is pressed
+18:43:27.655 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (455c7acdb8c5890a379b5c70b1d8283b)] -> xpath: //input[@id='password-id']]] is pressed
+18:43:29.820 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (455c7acdb8c5890a379b5c70b1d8283b)] -> xpath: //button[text()='Login']]] is pressed
+18:43:32.046 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (455c7acdb8c5890a379b5c70b1d8283b)] -> xpath: (//img[@class='css-rbpvgo'])[1]]] is pressed
+18:43:34.134 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (455c7acdb8c5890a379b5c70b1d8283b)] -> xpath: //button[contains(@class, 'MuiButtonBase-root') and text()='Meat']]] is pressed
+18:43:37.402 [main] INFO  foodnow.core.TestBase -- Test is FAILED: [addProductPositiveTest], Screenscot: [C:\QA_Project\FoodNow_Selenium_2.0\src\test_screenshots\screen-1733766217170.png]
+18:43:37.407 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

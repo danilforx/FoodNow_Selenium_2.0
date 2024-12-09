@@ -26,12 +26,12 @@ public class TestBase {
 
     @BeforeSuite //Suite - запускается несколько раз
     public void start() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-gpu");
-        options.addArguments("--disable-dev-shm-usage");
-        driver = new ChromeDriver(options);
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headless");
+//        options.addArguments("--no-sandbox");
+//        options.addArguments("--disable-gpu");
+//        options.addArguments("--disable-dev-shm-usage");
+//        driver = new ChromeDriver(options);
         logger.info("*** TESTING IN PROGRESs ***");
         app.init();
     }
@@ -49,7 +49,6 @@ public class TestBase {
             logger.info("Test is FAILED: [" + method.getName() + "], Screenscot: [" + app.getBaseHelper().takeScreenshot() + "]");
         }
     }
-
 
     @AfterSuite(enabled = true)
     public void tearDown() {
