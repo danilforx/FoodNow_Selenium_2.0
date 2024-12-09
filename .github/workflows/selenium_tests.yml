@@ -26,13 +26,13 @@ jobs:
         with:
           chrome-version: stable
 
-      # Step 4: Verify Chrome Installation
-      - name: Verify Chrome Installation
-        run: google-chrome --version
-
-      # Step 5: Grant Execute Permission to Gradle Wrapper
+      # Step 4: Grant Execute Permission to Gradle Wrapper
       - name: Grant Execute Permission to Gradle Wrapper
         run: chmod +x ./gradlew
+
+      # Step 5: Set Display
+      - name: Set Display
+        run: export DISPLAY=:99
 
       # Step 6: Build the project using Gradle wrapper
       - name: Build Project
@@ -41,8 +41,6 @@ jobs:
       # Step 7: Run Selenium Tests
       - name: Run Selenium Tests
         run: ./gradlew test --info
-        env:
-          DISPLAY: ":99"
 
       # Step 8: Upload Test Reports for Debugging
       - name: Upload Test Reports
