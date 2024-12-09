@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eae0656a-6bf5-48c9-90b9-a6968583d0cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodnow/core/ApplicationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodnow/core/BaseHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodnow/pages/AddProductPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodnow/pages/CartPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodnow/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodnow/pages/OrderDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodnow/pages/RegisterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodnow/pages/TextBoxPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/foodnow/utils/DataProviders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/foodnow/core/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/foodnow/tests/AddProductTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/foodnow/tests/CartTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/foodnow/tests/LoginNegativeTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/foodnow/tests/LoginPositiveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/foodnow/tests/OderDetailsTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/foodnow/tests/RegisterNegativeTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/foodnow/tests/RegisterPositiveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginNegative.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/RegistrationNegative.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/RegistrationPositive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/invalidEmail.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/invalidFirstName.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/invalidPassword.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/invalidTNumber.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testNG_xml/smoke.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T125638.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T130213.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T130445.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T130522.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T130620.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T130749.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T132313.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T132950.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T133952.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T134714.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T134735.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T134838.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T135216.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T140717.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T140855.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T141359.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T142540.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T142939.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T143235.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T143542.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T143747.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T144656.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T144746.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T144902.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T145535.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T145549.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T145702.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T150046.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T150232.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T150314.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T184158.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T184319.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T184347.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T185620.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T185812.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T193029.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T193111.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T193123.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T193147.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T193324.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T193511.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T193526.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-09T193624.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-23T225011.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-24T161615.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T130314.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T130526.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T133955.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T134106.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T134227.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T160124.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T180339.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T180753.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T180939.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T181817.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T182046.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T185835.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T185946.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T194203.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T194324.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T195326.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T195756.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T195933.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T200138.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-25T200424.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T130045.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T130142.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T130223.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T130311.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T180304.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T180351.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T180403.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T180448.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T180632.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T180724.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T180923.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T182029.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T182140.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T182440.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T182836.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T182920.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T183815.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T184235.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T184658.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T184831.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T184911.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T184929.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_logs/log-26T185007.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1732643330489.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733750751238.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733750759922.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733750768712.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733750777410.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733750786294.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733750794928.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733750803548.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733750812184.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733750821308.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733766217170.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_screenshots/screen-1733769401037.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2pzbfnz0OKm3s28Cxi6c8uSlnI2" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20241209_0000",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Tools/gradle-8.10.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.RegisterPositiveTests">
+    <configuration name="AddProductTests.addProductPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FoodNow.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foodnow.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="foodnow.tests" />
+      <option name="MAIN_CLASS_NAME" value="foodnow.tests.AddProductTests" />
+      <option name="METHOD_NAME" value="addProductPositiveTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartTests.proceedToCheckout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FoodNow.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foodnow.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="foodnow.tests" />
+      <option name="MAIN_CLASS_NAME" value="foodnow.tests.CartTests" />
+      <option name="METHOD_NAME" value="proceedToCheckout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPositiveTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FoodNow.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foodnow.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="foodnow.tests" />
+      <option name="MAIN_CLASS_NAME" value="foodnow.tests.LoginPositiveTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterNegativeTests.registerNegativeTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FoodNow.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foodnow.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="foodnow.tests" />
+      <option name="MAIN_CLASS_NAME" value="foodnow.tests.RegisterNegativeTests" />
+      <option name="METHOD_NAME" value="registerNegativeTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPositiveTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FoodNow.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foodnow.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="foodnow.tests" />
+      <option name="MAIN_CLASS_NAME" value="foodnow.tests.RegisterPositiveTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RegisterPositiveTests" />
+        <item itemvalue="TestNG.RegisterNegativeTests.registerNegativeTest1" />
+        <item itemvalue="TestNG.LoginPositiveTests" />
+        <item itemvalue="TestNG.CartTests.proceedToCheckout" />
+        <item itemvalue="TestNG.AddProductTests.addProductPositiveTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eae0656a-6bf5-48c9-90b9-a6968583d0cb" name="Changes" comment="" />
+      <created>1733771957423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733771957423</updated>
+    </task>
+    <servers />
+  </component>
+</project>
