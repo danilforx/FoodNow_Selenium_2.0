@@ -1,4 +1,0 @@
-14:47:46.833 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
-14:47:47.121 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
-14:47:47.144 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
-14:47:48.560 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

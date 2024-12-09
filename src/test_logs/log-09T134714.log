@@ -1,5 +1,0 @@
-13:47:14.964 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
-13:47:15.271 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
-13:47:15.298 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
-13:47:16.821 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
-13:47:17.135 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (ea0fc2203155f164d2dac8c2de765b9d)] -> xpath: //a[@href='#/user-profile']]] is pressed
