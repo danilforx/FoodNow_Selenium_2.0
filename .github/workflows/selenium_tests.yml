@@ -38,3 +38,16 @@ jobs:
         run: ./gradlew clean
       - name: ▶️ 🐞 Run tests
         run: xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" ./gradlew clean smoke -Pbrowser=chrome -Pmode=normal clean build > build.log 2>&1 || true
+      - name: ✅ 📦 Archive [Gradle build log]
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gradle-build-log.zip
+          path: build.log
+      - name: ✅ 📦 Archive [test results]
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gradle-results.zip
+          path: |
+            build/reports/tests/test/*
