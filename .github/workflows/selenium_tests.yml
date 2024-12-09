@@ -9,42 +9,34 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      # Step 2: Set up Java environment
       - name: Set Up Java
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: 11
 
-      # Step 3: Install Chrome Browser
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: stable
 
-      # Step 4: Grant Execute Permission to Gradle Wrapper
       - name: Grant Execute Permission to Gradle Wrapper
         run: chmod +x ./gradlew
 
-      # Step 5: Set Display
       - name: Set Display
         run: export DISPLAY=:99
 
-      # Step 6: Build the project using Gradle wrapper
       - name: Build Project
-        run: ./gradlew build --info
+        run: ./gradlew build --info --stacktrace
 
-      # Step 7: Run Selenium Tests
       - name: Run Selenium Tests
-        run: ./gradlew test --info
+        run: ./gradlew test --info --stacktrace
 
-      # Step 8: Upload Test Reports for Debugging
       - name: Upload Test Reports
         uses: actions/upload-artifact@v3
         with:
           name: Test Reports
-          path: build/reports/tests/test/index.html
+          path: build/reports/tests/test

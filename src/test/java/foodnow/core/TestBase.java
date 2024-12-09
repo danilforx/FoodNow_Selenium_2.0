@@ -27,10 +27,10 @@ public class TestBase {
     @BeforeSuite //Suite - запускается несколько раз
     public void start() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless"); // Run Chrome in headless mode
-        options.addArguments("--disable-gpu"); // Disable GPU for better compatibility
-        options.addArguments("--no-sandbox"); // Bypass OS security model
-        options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
+        options.addArguments("--headless");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
         logger.info("*** TESTING IN PROGRESs ***");
         app.init();
