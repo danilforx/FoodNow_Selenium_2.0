@@ -19,7 +19,7 @@ public class LoginPositiveTests extends TestBase {
         new LoginPage(app.driver)
                 .clickIconAuthorization()
                 .clickLoginButton()
-                .enterPersonalData("fgg@jhfsd.com", "Asd123Lkj@")
+                .enterPersonalData("danileremenkoschool@gmail.com", "Slovonet123!")
                 .clickSubmitLogin()
                 .verifyUserIsLoggedIn();
     }

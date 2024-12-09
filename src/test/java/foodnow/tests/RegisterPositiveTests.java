@@ -29,12 +29,10 @@ public class RegisterPositiveTests extends TestBase {
     }
 
 
-    @Test(dataProvider = "addNewUserFormFromCSVFile", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "validRegistrationData", dataProviderClass = DataProviders.class)
     public void keyboardEventDataProviderTest(String firstName, String lastName, String email, String password, String phone) throws AWTException {
         new TextBoxPage(app.driver)
                 .enterPersonalData(firstName, lastName, email, password, phone)
-                //.keyboardEvent()
-                //.verifyCopyPasteAddress()
         ;
     }
 }

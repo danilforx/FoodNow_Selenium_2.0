@@ -1,0 +1,17 @@
+12:56:38.543 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+12:56:39.555 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+12:56:39.609 [main] INFO  i.g.b.wdm.online.Downloader -- Downloading https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.87/win64/chromedriver-win64.zip
+12:56:40.504 [main] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file chromedriver-win64.zip
+12:56:40.637 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+12:56:42.530 [main] INFO  foodnow.core.TestBase -- test loginPositiveTest started
+12:56:42.531 [main] INFO  foodnow.core.TestBase -- *** LOGIN TESTING IN PROGRESS ***
+12:56:42.532 [main] INFO  foodnow.core.TestBase -- *** LOGIN POSITIVE TESTING IN PROGRESS ***
+12:56:44.667 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (91750f10a4b51fd9617750354feb2a97)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:56:51.761 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/login']'] is pressed
+12:56:51.833 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (91750f10a4b51fd9617750354feb2a97)] -> xpath: //input[@id='email-id']]] is pressed
+12:56:52.002 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (91750f10a4b51fd9617750354feb2a97)] -> xpath: //input[@id='password-id']]] is pressed
+12:56:54.150 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (91750f10a4b51fd9617750354feb2a97)] -> xpath: //button[text()='Login']]] is pressed
+12:56:58.526 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (91750f10a4b51fd9617750354feb2a97)] -> xpath: //a[@href='#/user-profile']]] is pressed
+12:57:05.734 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space(text())='Log out']'] is pressed
+12:57:05.736 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [loginPositiveTest]
+12:57:05.745 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

@@ -1,0 +1,103 @@
+14:32:36.340 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+14:32:36.632 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+14:32:36.652 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+14:32:38.154 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:32:38.412 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:32:39.541 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:32:39.542 [main] INFO  foodnow.core.TestBase -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=A, email=drs@, password=          , phone=496753409
+14:32:39.622 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:32:39.774 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:32:39.908 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='email-id']]] is pressed
+14:32:40.034 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='password-id']]] is pressed
+14:32:40.165 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:32:40.309 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //button[text()='Registration']]] is pressed
+14:32:40.321 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:32:40.322 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:32:40.390 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:32:41.470 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:32:41.470 [main] INFO  foodnow.core.TestBase -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=Agggggggggggggggggggggggg, email=drs@try, password=sDftkvrdy, phone=+4967534096743275
+14:32:41.541 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:32:41.666 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:32:41.832 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='email-id']]] is pressed
+14:32:41.949 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='password-id']]] is pressed
+14:32:42.069 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:32:42.200 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //button[text()='Registration']]] is pressed
+14:32:42.205 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:32:42.205 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:32:42.268 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:32:43.370 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:32:43.370 [main] INFO  foodnow.core.TestBase -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=123, email=drs#@try.de, password=123456789, phone=+49175R7k86543
+14:32:43.449 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:32:43.575 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:32:43.706 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='email-id']]] is pressed
+14:32:43.834 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='password-id']]] is pressed
+14:32:43.963 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:32:44.088 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //button[text()='Registration']]] is pressed
+14:32:44.093 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:32:44.093 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:32:44.154 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:32:45.269 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:32:45.270 [main] INFO  foodnow.core.TestBase -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=@$%, email=drs@@try.de, password=@!#$%&*$, phone=+49175-510-79-54
+14:32:45.355 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:32:45.483 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:32:45.608 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='email-id']]] is pressed
+14:32:45.727 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='password-id']]] is pressed
+14:32:45.859 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:32:45.982 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //button[text()='Registration']]] is pressed
+14:32:45.988 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:32:45.988 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:32:46.046 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:32:47.163 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:32:47.163 [main] INFO  foodnow.core.TestBase -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=A nn, email=dr s@try.de, password=mhdebaQ8r&zY2mT!v6NwP#f0Lk8XpR9bVsQdJmA7Hk3Bz8QnLgPzT!o4RjFw1XbYhCmZ6tN9UqV3sKp7W@jZ4FhKmP0LjXtYtQ8r&zY2mT!v6NwP#f0Lk8XpR9bVsQdJm, phone=+49175$90%793
+14:32:47.231 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:32:47.351 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:32:47.489 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='email-id']]] is pressed
+14:32:47.605 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='password-id']]] is pressed
+14:32:47.832 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:32:47.934 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //button[text()='Registration']]] is pressed
+14:32:47.939 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:32:47.940 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:32:47.988 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:32:49.061 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:32:49.061 [main] INFO  foodnow.core.TestBase -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=        , email=drs#@try.d/e, password=wta123r@, phone=++491756897643
+14:32:49.136 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:32:49.262 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:32:49.402 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='email-id']]] is pressed
+14:32:49.532 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='password-id']]] is pressed
+14:32:49.655 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:32:49.780 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //button[text()='Registration']]] is pressed
+14:32:49.785 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:32:49.785 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:32:49.846 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:32:50.903 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:32:50.904 [main] INFO  foodnow.core.TestBase -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=A@1, email=drs@.de, password=WTA123R@, phone=1758971423
+14:32:50.976 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:32:51.103 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:32:51.229 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='email-id']]] is pressed
+14:32:51.347 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='password-id']]] is pressed
+14:32:51.474 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:32:51.590 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //button[text()='Registration']]] is pressed
+14:32:51.594 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:32:51.594 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:32:51.650 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:32:52.720 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:32:52.721 [main] INFO  foodnow.core.TestBase -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName=阿格尼娅, email=          , password=wtA123rK, phone=12345789999999977
+14:32:52.795 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:32:52.931 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:32:53.053 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='email-id']]] is pressed
+14:32:53.163 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='password-id']]] is pressed
+14:32:53.288 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:32:53.417 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //button[text()='Registration']]] is pressed
+14:32:53.422 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:32:53.422 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:32:53.483 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:32:54.587 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:32:54.589 [main] INFO  foodnow.core.TestBase -- [RegisterNegativeTests] Starting negative registration test with data: firstName=A, lastName="alert('XSS')", email=abcdefghijklmnopqrstuvwxyzABDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghij@example-very-long-domain-name-that-exceeds-standard-length-but-still-valid-and-not-breaking-rules-for-email-format.com, password="Oreo'); DROP TABLE Products; --", phone=+001759876543
+14:32:54.675 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:32:54.791 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:32:54.938 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='email-id']]] is pressed
+14:32:55.299 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='password-id']]] is pressed
+14:32:55.439 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:32:55.559 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (3d17b445db9964be461fbb9ee6cf41fd)] -> xpath: //button[text()='Registration']]] is pressed
+14:32:55.564 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:32:55.573 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

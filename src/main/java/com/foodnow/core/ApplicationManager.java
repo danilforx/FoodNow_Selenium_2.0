@@ -15,7 +15,7 @@ public class ApplicationManager {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         driver.get("https://oyster-app-hck73.ondigitalocean.app/#/");
         userHelper = new BaseHelper(driver);
     }

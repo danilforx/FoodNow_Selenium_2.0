@@ -1,0 +1,14 @@
+14:37:47.506 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+14:37:47.807 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+14:37:47.829 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+14:37:49.268 [main] INFO  foodnow.core.TestBase -- test registerNegativeTest started
+14:37:49.468 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (82aeec8e9c9759d2c4991c53d2b0412b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+14:37:50.606 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+14:37:50.694 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (82aeec8e9c9759d2c4991c53d2b0412b)] -> xpath: //input[@id='firstName-id']]] is pressed
+14:37:50.834 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (82aeec8e9c9759d2c4991c53d2b0412b)] -> xpath: //input[@id='lastName-id']]] is pressed
+14:37:50.954 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (82aeec8e9c9759d2c4991c53d2b0412b)] -> xpath: //input[@id='email-id']]] is pressed
+14:37:51.083 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (82aeec8e9c9759d2c4991c53d2b0412b)] -> xpath: //input[@id='password-id']]] is pressed
+14:37:51.201 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (82aeec8e9c9759d2c4991c53d2b0412b)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+14:37:51.333 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (82aeec8e9c9759d2c4991c53d2b0412b)] -> xpath: //button[text()='Registration']]] is pressed
+14:37:51.503 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [registerNegativeTest]
+14:37:51.506 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

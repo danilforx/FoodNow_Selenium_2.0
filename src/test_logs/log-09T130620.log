@@ -1,0 +1,76 @@
+13:06:21.021 [main] INFO  foodnow.core.TestBase -- *** TESTING IN PROGRESS ***
+13:06:21.324 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 131.0.6778.87 (resolved driver for Chrome 131)
+13:06:21.349 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win64\131.0.6778.87\chromedriver.exe
+13:06:22.731 [main] INFO  foodnow.core.TestBase -- test keyboardEventDataProviderTest started
+13:06:23.001 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:06:28.111 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+13:06:28.192 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='firstName-id']]] is pressed
+13:06:28.338 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='lastName-id']]] is pressed
+13:06:28.477 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='email-id']]] is pressed
+13:06:28.613 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='password-id']]] is pressed
+13:06:28.743 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+13:06:28.805 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [keyboardEventDataProviderTest]
+13:06:28.805 [main] INFO  foodnow.core.TestBase -- test keyboardEventDataProviderTest started
+13:06:28.880 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:06:33.952 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+13:06:34.024 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='firstName-id']]] is pressed
+13:06:34.149 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='lastName-id']]] is pressed
+13:06:34.307 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='email-id']]] is pressed
+13:06:34.429 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='password-id']]] is pressed
+13:06:34.555 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+13:06:34.622 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [keyboardEventDataProviderTest]
+13:06:34.624 [main] INFO  foodnow.core.TestBase -- test keyboardEventDataProviderTest started
+13:06:34.686 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:06:39.758 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+13:06:39.828 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='firstName-id']]] is pressed
+13:06:39.953 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='lastName-id']]] is pressed
+13:06:40.087 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='email-id']]] is pressed
+13:06:40.213 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='password-id']]] is pressed
+13:06:40.344 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+13:06:40.415 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [keyboardEventDataProviderTest]
+13:06:40.416 [main] INFO  foodnow.core.TestBase -- test keyboardEventDataProviderTest started
+13:06:40.482 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:06:45.591 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+13:06:45.682 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='firstName-id']]] is pressed
+13:06:45.811 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='lastName-id']]] is pressed
+13:06:45.957 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='email-id']]] is pressed
+13:06:46.081 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='password-id']]] is pressed
+13:06:46.207 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+13:06:46.273 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [keyboardEventDataProviderTest]
+13:06:46.274 [main] INFO  foodnow.core.TestBase -- test keyboardEventDataProviderTest started
+13:06:46.339 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:06:51.400 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+13:06:51.474 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='firstName-id']]] is pressed
+13:06:51.602 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='lastName-id']]] is pressed
+13:06:51.736 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='email-id']]] is pressed
+13:06:51.856 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='password-id']]] is pressed
+13:06:51.985 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+13:06:52.056 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [keyboardEventDataProviderTest]
+13:06:52.057 [main] INFO  foodnow.core.TestBase -- test keyboardEventDataProviderTest started
+13:06:52.122 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:06:57.211 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+13:06:57.281 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='firstName-id']]] is pressed
+13:06:57.402 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='lastName-id']]] is pressed
+13:06:57.538 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='email-id']]] is pressed
+13:06:57.661 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='password-id']]] is pressed
+13:06:57.792 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+13:06:57.860 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [keyboardEventDataProviderTest]
+13:06:57.861 [main] INFO  foodnow.core.TestBase -- test keyboardEventDataProviderTest started
+13:06:57.932 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:07:03.023 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+13:07:03.098 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='firstName-id']]] is pressed
+13:07:03.224 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='lastName-id']]] is pressed
+13:07:03.372 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='email-id']]] is pressed
+13:07:03.512 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='password-id']]] is pressed
+13:07:03.640 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+13:07:03.698 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [keyboardEventDataProviderTest]
+13:07:03.698 [main] INFO  foodnow.core.TestBase -- test keyboardEventDataProviderTest started
+13:07:03.759 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //a[@href='#/user-profile']]] is pressed
+13:07:08.858 [main] INFO  com.foodnow.core.BaseHelper -- [Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='#/registration' and text()='or register']'] is pressed
+13:07:08.944 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='firstName-id']]] is pressed
+13:07:09.065 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='lastName-id']]] is pressed
+13:07:09.192 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='email-id']]] is pressed
+13:07:09.319 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='password-id']]] is pressed
+13:07:09.451 [main] INFO  com.foodnow.core.BaseHelper -- [[[ChromeDriver: chrome on windows (1eef7adcc23a97dd89e3fee35651416b)] -> xpath: //input[@id='phoneNumber-id']]] is pressed
+13:07:09.513 [main] INFO  foodnow.core.TestBase -- Test is PASSED: [keyboardEventDataProviderTest]
+13:07:09.516 [main] INFO  foodnow.core.TestBase -- *** TESTING Ended ***

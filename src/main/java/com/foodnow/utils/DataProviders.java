@@ -10,19 +10,31 @@ import java.util.Iterator;
 import java.util.List;
 
 public class DataProviders {
-    @DataProvider
-    public Iterator<Object[]> addNewUserFormFromCSVFile() throws IOException {
+
+    @DataProvider(name = "validRegistrationData")
+    public Iterator<Object[]> validRegistrationData() throws IOException {
+        return readDataFromCSV("src/test/resources/RegistrationPositive.csv");
+    }
+
+    @DataProvider(name = "invalidRegistrationData")
+    public Iterator<Object[]> invalidRegistrationData() throws IOException {
+        return readDataFromCSV("src/test/resources/RegistrationNegative.csv");
+    }
+
+    @DataProvider(name = "invalidLoginData")
+    public Iterator<Object[]> invalidLoginData() throws IOException {
+        return readDataFromCSV("src/test/resources/LoginNegative.csv");
+    }
+
+    private Iterator<Object[]> readDataFromCSV(String filePath) throws IOException {
         List<Object[]> list = new ArrayList<>();
-        //BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/invalidFirstName.csv"));
-        //BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/invalidEmail.csv"));
-        //BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/invalidPassword.csv"));
-        BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/invalidTNumber.csv"));
-        String line = reader.readLine();
-        while (line != null) {
-            list.add(line.split(","));
-            line = reader.readLine();
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line = reader.readLine();
+            while (line != null) {
+                list.add(line.split(","));
+                line = reader.readLine();
+            }
         }
-        reader.close();
         return list.iterator();
     }
 }

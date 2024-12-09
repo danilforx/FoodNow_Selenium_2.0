@@ -4,10 +4,14 @@ import com.foodnow.pages.RegisterPage;
 import com.foodnow.pages.TextBoxPage;
 import com.foodnow.utils.DataProviders;
 import foodnow.core.TestBase;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.awt.*;
+import java.time.Duration;
 
 public class RegisterNegativeTests extends TestBase {
     @BeforeMethod
@@ -19,22 +23,29 @@ public class RegisterNegativeTests extends TestBase {
 
     @Test
     public void registerNegativeTest() {
+        String invalidFirstName = "t";
+        String invalidLastName = "r";
         String invalidEmail = "invalidEmail";
         String invalidPassword = "123";
         String invalidPhone = "12345";
 
         new RegisterPage(app.driver)
-                .enterPersonalData("Tom", "Smith", invalidEmail, invalidPassword, invalidPhone)
+                .enterPersonalData(invalidFirstName, invalidLastName, invalidEmail, invalidPassword, invalidPhone)
                 .clickSubmitRegister()
-                .failAuthorizationLogin("Email is not valid", "Password field should contain minimum 6 symbols", "Phone number is not valid");
+                .failAuthorizationLogin("First name", "Last name", "Email","Password","Phone number");
     }
 
-    @Test(dataProvider = "addNewUserFormFromCSVFile", dataProviderClass = DataProviders.class)
-    public void keyboardEventDataProviderTest(String firstName, String lastName, String email, String password, String phone) throws AWTException {
-        new TextBoxPage(app.driver)
+    @Test(dataProvider = "invalidRegistrationData", dataProviderClass = DataProviders.class)
+    public void registerNegativeTest1(String firstName, String lastName, String email, String password, String phone) {
+        logger.info("[RegisterNegativeTests] Starting negative registration test with data: firstName={}, lastName={}, email={}, password={}, phone={}",
+                firstName, lastName, email, password, phone);
+        new RegisterPage(app.driver)
                 .enterPersonalData(firstName, lastName, email, password, phone)
-        //.keyboardEvent()
-        //.verifyCopyPasteAddress()
-        ;
+                .clickSubmitRegister();
+
+        WebDriverWait wait = new WebDriverWait(app.driver, Duration.ofSeconds(5)); // Используем app.driver
+        boolean isRegistrationFailed = wait.until(ExpectedConditions.urlContains("#/registration"));
+
+        Assert.assertTrue(isRegistrationFailed, "Registration unexpectedly succeeded with invalid data");
     }
 }

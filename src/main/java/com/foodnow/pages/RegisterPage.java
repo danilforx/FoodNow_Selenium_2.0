@@ -61,7 +61,7 @@ public class RegisterPage extends BaseHelper {
     public void verifyUserIsLoggedIn() {
         // pause(5000); // Adding a pause of 5 seconds
        // shouldHaveText(popUp, "You were registered successfully. Please log in now.",2000);
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOf(popUp));
         assert popUp.isDisplayed();
     }
@@ -71,20 +71,28 @@ public class RegisterPage extends BaseHelper {
     }
 
 
-    @FindBy(xpath = "(//div[@class='css-j1mlt7'])[1]")
+    @FindBy(xpath = "//div[starts-with(normalize-space(text()), 'First name')]")
+    WebElement invalidFirstName;
+    @FindBy(xpath = "//div[starts-with(normalize-space(text()), 'Last name')]")
+    WebElement invalidLastName;
+    @FindBy(xpath = "//div[starts-with(normalize-space(text()), 'Email')]")
     WebElement invalidEmail;
-    @FindBy(xpath = "(//div[@class='css-j1mlt7'])[2]")
+    @FindBy(xpath = "//div[starts-with(normalize-space(text()), 'Password')]")
     WebElement invalidPassword;
-    @FindBy(xpath = "(//div[@class='css-j1mlt7'])[3]")
+    @FindBy(xpath = "//div[starts-with(normalize-space(text()), 'Phone number')]")
     WebElement invalidPhone;
-    public RegisterPage failAuthorizationLogin(String text, String text1, String text2) {
+    public RegisterPage failAuthorizationLogin(String text, String text1, String text2,String text3, String text4) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.visibilityOf(invalidFirstName));
+        wait.until(ExpectedConditions.visibilityOf(invalidLastName));
         wait.until(ExpectedConditions.visibilityOf(invalidEmail));
         wait.until(ExpectedConditions.visibilityOf(invalidPassword));
         wait.until(ExpectedConditions.visibilityOf(invalidPhone));
-        assert invalidEmail.getText().contains(text);
-        assert invalidPassword.getText().contains(text1);
-        assert invalidPhone.getText().contains(text2);
+        assert invalidFirstName.getText().contains(text);
+        assert invalidLastName.getText().contains(text1);
+        assert invalidEmail.getText().contains(text2);
+        assert invalidPassword.getText().contains(text3);
+        assert invalidPhone.getText().contains(text4);
         return this;
     }
 }
