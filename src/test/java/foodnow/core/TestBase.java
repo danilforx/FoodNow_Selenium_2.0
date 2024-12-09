@@ -3,8 +3,11 @@ package foodnow.core;
 import com.foodnow.core.ApplicationManager;
 import com.foodnow.core.BaseHelper;
 import com.foodnow.pages.CartPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.ITestResult;
@@ -23,6 +26,12 @@ public class TestBase {
 
     @BeforeSuite //Suite - запускается несколько раз
     public void start() {
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless"); // Required for CI environments
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        driver = new ChromeDriver(options);
         logger.info("*** TESTING IN PROGRESs ***");
         app.init();
     }

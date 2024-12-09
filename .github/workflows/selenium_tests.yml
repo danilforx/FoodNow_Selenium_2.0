@@ -9,28 +9,52 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout Code
         uses: actions/checkout@v3
 
+      # Step 2: Set up Java environment
       - name: Set Up Java
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: 11
 
+      # Step 3: Install Chrome Browser
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: stable
 
+      # Step 4: Verify Chrome Installation
       - name: Verify Chrome Installation
         run: google-chrome --version
 
+      # Step 5: Install Gradle Wrapper
       - name: Set Up Gradle
         uses: gradle/gradle-build-action@v2
 
+      # Step 6: Build the project
       - name: Build Project
-        run: gradle build
+        run: ./gradlew build
 
-      - name: Run Tests
-        run: gradle test
+      # Step 7: Run Selenium Tests
+      - name: Run Selenium Tests
+        run: |
+          ./gradlew test --info
+        env:
+          DISPLAY: ":99"
+
+      # Step 8: Upload Test Reports as Artifacts for Debugging
+      - name: Upload Test Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: Test Report
+          path: build/reports/tests/test/index.html
+
+      # Step 9: Upload Logs (Optional, Useful for Debugging)
+      - name: Upload Build Logs
+        uses: actions/upload-artifact@v3
+        with:
+          name: Build Logs
+          path: build/reports
